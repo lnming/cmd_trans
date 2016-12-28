@@ -20,9 +20,6 @@ python cmd_trans.py 需要翻译的文本
 ##特别说明
 1. 目前仅支持中英互译
 2. 为更方便使用，推荐用alias别名
-在<code>~/.bashrc</code>中写入
-
-<code>alias trans='python /file/path/cmd_trans.py'</code>
-
+在<code>~/.bashrc</code>中写入<code>alias trans='python /file/path/cmd_trans.py'</code>
 如此便可直接通过<code>trans 需要翻译的文本</code>，随时进行翻译
 3. 工具使用的是有道的翻译API，每天请求次数有限，建议自己申请key
