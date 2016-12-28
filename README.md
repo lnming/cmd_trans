@@ -2,18 +2,16 @@
   
   
 ###初衷
-本人英语比较渣，在Linux环境工作时经常遇到不认识的单词，需要跳出命令行翻译，多有不便
+本人英语比较渣，在Linux环境工作时经常遇到不认识的单词，需要跳出命令行翻译，多有不便  
 正好在学习Python，因此产生了编写这个工具的想法，一边学一边实践
   
 ###使用方法
 1. 下载脚本到本地
 2. 在命令行在切换到脚本所在目录
-3. 运行如下命令
-```
-python cmd_trans.py 需要翻译的文本
-```
+3. 运行如下命令  
+<code>python cmd_trans.py 需要翻译的文本</code>  
 例：输入<code>python3 cmd_trans.py hello,world</code>
-返回“你好,世界”
+返回“你好,世界”  
 ![例](http://ww3.sinaimg.cn/large/6f60f690gw1fb6uwngrxmj205800ut8l.jpg)
   
 ###特别说明
