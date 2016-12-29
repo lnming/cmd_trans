@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import requests,sys,argparse
+import requests,argparse
 
 def translate(query):
 	params = {'keyfrom':keyfrom,'key':key,'version':1.1,'type':'data','doctype':'json','q':query}
@@ -13,9 +13,9 @@ key = 914995308
 keyfrom = 'lin-trans'
 
 parser = argparse.ArgumentParser()
-parser.add_argument('query',help='输入需翻译的文本')
+parser.add_argument('query',nargs='+',help='输入需翻译的文本')
 args = parser.parse_args()
-QUERY = args.query
+QUERY = ' '.join(args.query)
 
 if __name__ == '__main__':
 	translate(QUERY)
